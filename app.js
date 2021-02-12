@@ -5,6 +5,7 @@ const mysqlconnection = require('./connection');
 const bodyparser = require("body-parser");
 var moment = require('moment');
 const empty = require('is-empty');
+const sequelize = require('sequelize');
 
 app.set('view-engine', 'ejs')
 app.use(express.static("public"));
